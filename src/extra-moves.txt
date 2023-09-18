@@ -1,0 +1,18 @@
+// bar:{
+        //   name: 'bar',
+        //   chargeCost: 1,
+        //   damage: 1,
+        //   desc: 'Deal damage!'
+        // },
+        // baz:{
+        //   name: 'baz',
+        //   chargeCost: 1,
+        //   damage: 1,
+        //   desc: 'Deal damage!'
+        // },
+        // qux:{
+        //   name: 'qux',
+        //   chargeCost: 1,
+        //   damage: 1,
+        //   desc: 'Deal damage!'
+        // }
