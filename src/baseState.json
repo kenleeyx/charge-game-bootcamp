@@ -1,4 +1,23 @@
 {
+    "gamePhase": "main",
+    "turnCount": -3,
+    "winner": null,
+    "comPlayer":false,
+    "playerOne": {
+        "playerName": "playerOne",
+        "shields": 2,
+        "charge": 0,
+        "movePlayed": "",
+        "gamesWon": 0
+    },
+    "playerTwo": {
+        "playerName": "playerTwo",
+        "shields": 2,
+        "charge": 0,
+        "movePlayed": "",
+        "gamesWon": 0
+    },
+    "moveList": {
         "Charge": {
             "name": "Charge",
             "p1keyboard": "S",
@@ -6,7 +25,8 @@
             "chargeCost": -1,
             "damage": 0,
             "desc": "Gain 1 Energy!",
-            "type": "CHG"
+            "type": "CHG",
+            "image":"./Images/wizard-charge.png"
         },
         "Lightning": {
             "p1keyboard": "D",
@@ -15,7 +35,8 @@
             "chargeCost": 1,
             "damage": 1,
             "desc": "Deal damage!",
-            "type": "ATK"
+            "type": "ATK",
+            "image":"./Images/wizard-lightning.png"
         },
         "Block": {
             "p1keyboard": "A",
@@ -24,6 +45,8 @@
             "chargeCost": 0,
             "damage": 0,
             "desc": "Defend yourself!",
-            "type": "DEF"
+            "type": "DEF",
+            "image": "./Images/wizard-block.png"
         }
-      }
+    }
+}

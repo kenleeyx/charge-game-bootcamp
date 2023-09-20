@@ -1,21 +1,17 @@
 import React from 'react';
 
-export function MoveNameBox(props) { // need to configure this to take in the logic to display PREPARE
-    if (props.gamePhase === "main") {
+export function MoveNameBox(props) { 
+    if (props.gamePhase === "main") { // display nothing on main screen
         return
     } else {
-        if (props.turn % 2 === 1) {
+        if (props.turn % 2 === 1) { // display CAST during user input turn
             return (
-                <div>
-                    <p>CAST!</p>
-                </div>
+                <p className = 'font-aref text-3xl'>CAST!</p>
             )
         }
-        else {
+        else { // display the move name during the display turn(or nothing if no move was played)
             return (
-                <div>
-                    <p>{props.move.toUpperCase()}</p>
-                </div>
+                <p className = 'font-aref text-3xl'>{props.move.toUpperCase()}</p>
             )
         }
     }

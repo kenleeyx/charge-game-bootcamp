@@ -5,7 +5,12 @@ module.exports = {
   ],
   //content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'bungee-spice': ['"Bungee Spice"'],
+        'aref' :['"Aref Ruqaa Ink"']
+      }
+    },
   },
   plugins: [],
 }
