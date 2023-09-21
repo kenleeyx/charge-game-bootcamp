@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/charge-game-bootcamp/static/css/main.3aa9d8a2.css",
+    "main.js": "/charge-game-bootcamp/static/js/main.7a92aa9b.js",
+    "static/js/787.6393d278.chunk.js": "/charge-game-bootcamp/static/js/787.6393d278.chunk.js",
+    "index.html": "/charge-game-bootcamp/index.html",
+    "main.3aa9d8a2.css.map": "/charge-game-bootcamp/static/css/main.3aa9d8a2.css.map",
+    "main.7a92aa9b.js.map": "/charge-game-bootcamp/static/js/main.7a92aa9b.js.map",
+    "787.6393d278.chunk.js.map": "/charge-game-bootcamp/static/js/787.6393d278.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3aa9d8a2.css",
+    "static/js/main.7a92aa9b.js"
+  ]
+}
